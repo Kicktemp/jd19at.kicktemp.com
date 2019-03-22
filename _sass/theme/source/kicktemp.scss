@@ -126,15 +126,23 @@ html.animationgif .reveal .slide-background
 }
 
 svg.kicktemp {
+	 position: fixed;
+	 bottom: 2em;
+	 left: 2em;
+	 width: 150px;
+	 fill: #fff;
+ }
+svg.jdlogo {
 	position: fixed;
-	bottom: 2em;
-	left: 2em;
-	width: 150px;
+	top: 1em;
+	right: 1em;
+	width: 100px;
 	fill: #fff;
 }
-
 html.animationgif svg.kicktemp,
-html.hidekick svg.kicktemp {
+html.animationgif svg.jdlogo,
+html.hidekick svg.kicktemp,
+html.hidekick svg.jdlogo {
 	display:none;
 }
 
